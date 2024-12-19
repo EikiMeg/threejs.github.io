@@ -9,6 +9,13 @@
         }
       }
     </script>
+    <style>
+      button.large {
+      padding-left: 3em;
+      padding-right: 3em;
+      height: 5em;
+      }
+    </style>
     <script type="module">
       import * as THREE from "three";
       import { OrbitControls } from "three/addons/controls/OrbitControls.js";
@@ -4807,8 +4814,8 @@
   </head>
   <body>
     <h1>P287L</h1>
-    <button onclick="location.href='index.html'">WT</button>
-    <button onclick="location.href='E288K.html'">E288K</button>
+    <button class = "large" onclick="location.href='index.html'">WT</button>
+    <button class = "large" onclick="location.href='E288K.html'">E288K</button>
     <canvas id="myCanvas"></canvas>
   </body>
 </html>
